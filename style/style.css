@@ -17,8 +17,8 @@ body{
         /************* Header & Navigation styles start ***********/
 /*************************************************************************/
 header{
-    height:100vh;
-    width: 100%;
+    /* height:100vh; */
+    /* width: 100%; */
     background-image: url(../images/cloud.png),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     background-blend-mode: overlay;
     background-image: no-repeat;
@@ -56,8 +56,23 @@ nav{
 /*************************************************************************/
         /************* Banner styles start ***********/
 /*************************************************************************/
-
-
+.banner{
+    height: calc(100vh - 80px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* grid-template-columns: repeat(2,1fr); */
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-right img{
+    width: 100%;
+}
 
 
 
