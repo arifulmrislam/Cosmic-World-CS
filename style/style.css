@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans&family=Poppins:ital,wght@0,100;0,400;0,500;1,500&display=swap');
+/*************************************************************************/
+            /*************** Common styles start*****************/
+/*************************************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*************************************************************************/
+        /*************** Common styles end *****************/
+/*************************************************************************/
+/*************************************************************************/
+        /************* Header & Navigation styles start ***********/
+/*************************************************************************/
+header{
+    height:100vh;
+    width: 100%;
+    background-image: url(../images/cloud.png),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-image: no-repeat;
+    background-size: cover;
+
+}
+.nav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.navigation li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+/*************************************************************************/
+        /************* Header & Navigation styles end **************/
+/*************************************************************************/
+/*************************************************************************/
+        /************* Banner styles start ***********/
+/*************************************************************************/
+
+
+
+
+
+/*************************************************************************/
+        /************* Banner styles end ***********/
+/*************************************************************************/
